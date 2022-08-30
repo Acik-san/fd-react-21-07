@@ -1,0 +1,17 @@
+@import "../../common/style/template";
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  a {
+    color: inherit;
+  }
+}
+.light {
+  @extend %light;
+}
+.dark {
+  @extend %dark;
+}

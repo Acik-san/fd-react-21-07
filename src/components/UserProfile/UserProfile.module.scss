@@ -1,0 +1,13 @@
+@import "../../common/style/template";
+.container {
+  padding: 20px;
+  &_heading {
+    font-size: 2em;
+  }
+}
+.light {
+  @extend %light;
+}
+.dark {
+  @extend %dark;
+}

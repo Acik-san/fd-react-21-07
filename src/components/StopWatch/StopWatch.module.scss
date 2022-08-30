@@ -1,0 +1,34 @@
+// @import "../../common/style/colors";
+@use "../../common/style/colors" as *;
+@use "../../common/style/template";
+
+.container {
+  min-width: 200px;
+  width: 50%;
+  max-width: 400px;
+  padding: 1rem;
+  border: 3px solid rgb(91, 0, 177);
+  border-radius: 5px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-color;
+}
+.timer {
+  max-width: 90%;
+  @extend %one-line;
+  font: {
+    size: 50px;
+  }
+  color: $text-color;
+}
+.btn {
+  border: 2px solid gold;
+  border-radius: 5px;
+  color: $text-color;
+  background-color: rgb(91, 0, 177);
+}
+.btn + .btn {
+  margin-left: 15px;
+}

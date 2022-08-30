@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 72, "name": "Elon" },
+    { "id": 13, "name": "Freddie" },
+    { "id": 21, "name": "Elton" }
+  ],
+  "messages": [
+    { "id": 1, "body": "text", "userId": 72 },
+    { "id": 2, "body": "Hi", "userId": 13 },
+    { "id": 3, "body": "Hello", "userId": 21 }
+  ]
+}

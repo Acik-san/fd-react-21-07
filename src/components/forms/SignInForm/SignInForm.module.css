@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  width: 300px;
+}
+.input {
+  padding: 0.3em;
+  margin-top: 1em;
+  border: 3px solid #ccc;
+  border-radius: 3px;
+}
+.valid {
+  border-color: #01ad01;
+}
+.invalid {
+  border-color: #f01414;
+}
